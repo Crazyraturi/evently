@@ -1,36 +1,128 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dev Event Platform 🚀
 
-## Getting Started
+A modern full-stack event management platform built with **Next.js 16**, designed for developers to discover, create, and manage events seamlessly.
 
-First, run the development server:
+---
+
+## 📌 Overview
+
+This project is part of a hands-on learning experience focused on mastering **Next.js 16**, the latest version of the official React framework. It demonstrates how to build high-performance, scalable applications using modern features like advanced caching, server components, and optimized data fetching.
+
+The platform allows users to:
+
+* Browse upcoming developer events
+* Create and manage their own events
+* Experience a fast, responsive UI powered by Next.js
+
+---
+
+## ⚙️ Tech Stack
+
+* **Framework:** Next.js 16
+* **Language:** TypeScript
+* **Frontend:** React, Tailwind CSS
+* **Backend:** Next.js Server Actions / API Routes
+* **Database:** (Add your DB here, e.g., PostgreSQL / MongoDB)
+* **Deployment:** Vercel (recommended)
+
+---
+
+## ✨ Features
+
+* 🔍 Browse and search events
+* ➕ Create new events
+* 📝 Edit and manage events
+* ⚡ Optimized performance with Next.js caching
+* 📱 Fully responsive UI
+* 🔐 Environment-based configuration
+
+---
+
+## 🧰 Tools & Integrations
+
+* PostHog → Analytics & product insights
+* WebStorm → Development environment
+* Junie AI → AI-powered development assistance
+* Warp → Terminal experience
+* CodeRabbit → Code review automation
+* Cloudinary → Image upload & management
+
+---
+
+## 📂 Project Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Crazyraturi/evently.git
+cd evently
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Setup environment variables
+
+Create a `.env.local` file:
+
+```env
+NEXT_PUBLIC_API_URL=
+DATABASE_URL=
+CLOUDINARY_URL=
+```
+
+---
+
+### 4. Run development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open: http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Deployment
 
-## Learn More
+The easiest way to deploy is using **Vercel**:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+npm start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Or connect your GitHub repo directly to Vercel for automatic deployments.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📖 Learning Goals
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Understand Next.js 16 architecture
+* Work with server and client components
+* Implement caching and performance optimizations
+* Build a real-world full-stack application
+* Deploy production-ready apps
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🤝 Contributing
+
+Contributions are welcome. Feel free to fork the repo and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+## 🙌 Acknowledgements
+
+Special thanks to all tools and platforms that made development faster and more efficient.
+
+---
